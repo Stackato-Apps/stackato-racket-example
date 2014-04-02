@@ -1,8 +1,2 @@
----
 name: racket
-framework:
-  type: buildpack
-env:
-  BUILDPACK_URL: git://github.com/ActiveState/stackato-buildpack-racket.git
-processes:
-  web: ./racketapp
+buildpack: git://github.com/ActiveState/stackato-buildpack-racket.git
