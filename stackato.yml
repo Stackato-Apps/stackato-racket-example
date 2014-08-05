@@ -1,2 +1,0 @@
-name: stackato-racket-example
-buildpack: git://github.com/ActiveState/stackato-buildpack-racket.git
